@@ -30,6 +30,6 @@ Busco criar aplicações sólidas, com boa estrutura, foco na performance e, cla
 
 Quer trocar uma ideia, colaborar ou só bater um papo?
 
-- Email: [Clique aqui](limaemanoe91@gmail.com)
+- Email: **limaemanoe91@gmail.com**
 - LinkedIn: [Clique aqui](https://www.linkedin.com/in/emanoellimaaa/)
 - Instagram: [Clique aqui](https://www.instagram.com/emanoelima/)
