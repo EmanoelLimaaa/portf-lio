@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emanoel Lima - Desenvolvedor Full Stack</title>
+        <meta name="description" content="Portfólio profissional de Emanoel Lima, Desenvolvedor Full Stack especializado em Python e Django">
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preload" href="./assets/minhafoto.png" as="image">
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header id="header">
+            <div class="container header-container">
+                <a href="#home" class="logo">
+                    <img src="./assets/minhafoto.png" alt="Emanoel Lima - Foto de Perfil" width="40" height="40">
+                    <span>Meu</span>Portfólio
+                </a>
+                <button class="menu-toggle" aria-label="Menu Mobile" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="nav" aria-label="Navegação Principal">
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#testimonials">Formação</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <h1>Olá, eu sou <span>Emanoel Lima</span></h1>
+            <p>Desenvolvedor Full Stack apaixonado por criar soluções digitais inovadoras e eficientes que impulsionam negócios e melhoram a experiência do usuário.</p>
+            <a href="#contact" class="cta-button">Contate-me</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/emanoellimaaa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/EmanoelLimaaa" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/emanoelima" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/minhafoto.png" alt="Minha Foto">
+        </div>
+    </div>
+</section>
+
+<!-- Seção sobre mim -->
+<section class="section" id="about">
+<div class="container">
+    <div class="section-title">
+        <h2>Sobre <span>Mim</span></h2>
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Desenvolvedor Backend</h3>
+            <p>Sou um desenvolvedor backend Python, apaixonado por criar soluções digitais inovadoras e eficientes que impulsionam negócios e melhoram a experiência do usuário com tecnologias modernas.</p>
+            <p>Estou cursando Análise e Desenvolvimento de Sistemas e atualmente estou no 3º semestre, onde venho aprimorando minha base teórica e prática em desenvolvimento. Além do backend, possuo conhecimento sólidos em HTML, CSS e JavaScript. Estou constantemente aprendendo e buscando novos desafios que me ajude a crescer como profissional e como pessoa.</p>
+            
+            <div class="skills">
+                <h4>Minhas Habilidades</h4>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">Django</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML/CSS</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="95"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="./assets/programando.png" alt="Trabalhando">
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Seção de serviços -->
+<section class="section services" id="services">
+    <div class="container">
+        <div class="section-title">
+            <h2>Meus <span>Serviços</span></h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites e sistemas web com foco em performance, responsividade e boas práticas de desenvolvimento.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Desenvolvimento Backend & APIs</h3>
+                <p>Desenvolvimento de APIs com Python e Django, garantindo a integração entre front-end e back-end.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Banco de Dados</h3>
+                <p>Modelagem e integração de bancos de dados relacionais, garantindo a consistência e integridade dos dados.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção do portfolio -->
+<section class="section" id="portfolio">
+<div class="container">
+    <div class="section-title">
+        <h2>Meu <span>Portfólio</span></h2>
+        <p>Confira meu projeto em desenvolvimento e acompanhe meu progresso</p>
+    </div>
+    
+    <div class="portfolio-grid">
+        <div class="portfolio-item featured-project">
+            <img src="./assets/inicio.png" alt="Projeto em Desenvolvimento" class="portfolio-img">
+            <div class="portfolio-overlay">
+                <div class="project-badge">Em Desenvolvimento</div>
+                <h3>Meu Projeto Principal</h3>
+                <p>Uma aplicação web para pessoas baixarem livros grátis.</p>
+                <div class="project-techs">
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>HTML/CSS/JS</span>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1W2e-DcyZBY8fp4PKEk0J-B6dOGW8tH8m?usp=sharing" class="project-link" title="Em breve disponível">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="coming-soon">
+            <div class="coming-soon-content">
+                <i class="fas fa-code-branch"></i>
+                <h3>Novos projetos em breve</h3>
+                <p>Estou trabalhando em novas ideias e em breve terão mais projetos aqui!</p>
+                <a href="#contact" class="cta-button">Quer colaborar?</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Formação Acadêmica -->
+ <section class="Formação" id="testimonials"</section>
+<section class="section testimonials">
+    <div class="container">
+        <div class="section-title">
+            <h2>Formação <span>Acadêmica</span></h2>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <p>Cursando Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade Pitágoras/Unopar Anhanguera. Início em 2024 e formação prevista para meados de 2026. A formação tem sido essencial para aprofundar meus conhecimentos em desenvolvimento backend, banco de dados e arquitetura de sistemas.</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="./assets/unopar.png" alt="Universidade Pitágoras">
+                    <div class="author-info">
+                        <h4>Universidade Pitágoras/Unopar Anhanguera</h4>
+                        <p>Curso Superior em Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>Concluí o Ensino Médio Técnico Profissionalizante na EEEP Dr. Salomão Alves de Moura, com o curso de Redes de Computadores (2021-2023), onde desenvolvi habilidades técnicas em redes, infraestrutura e suporte de TI.</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="./assets/eeep.png" alt="EEEP Dr. Salomão Alves de Moura">
+                    <div class="author-info">
+                        <h4>EEEP Dr. Salomão Alves de Moura</h4>
+                        <p>Ensino Médio Técnico Profissionalizante em Redes de Computadores</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>Sou formado em Suporte Técnico em Tecnologia da Informação pelo Instituto de Desenvolvimento, Estratégia e Conhecimento (IDESCO) da Universidade Estadual do Ceará, com a formação realizada de 13/02/2023 a 28/04/2023. A formação me proporcionou uma base sólida em TI e suporte técnico.</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="./assets/idesco.png" alt="IDESCO">
+                    <div class="author-info">
+                        <h4>IDESCO - Universidade Estadual do Ceará</h4>
+                        <p>Suporte Técnico em Tecnologia da Informação</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slider-dot active" data-slide="0"></div>
+                <div class="slider-dot" data-slide="1"></div>
+                <div class="slider-dot" data-slide="2"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de contato -->
+<section class="section contact-section" id="contact">
+<div class="container">
+    <div class="section-title">
+        <h2>Entre em <span>Contato</span></h2>
+        <p>Me envie uma mensagem por qualquer um dos canais abaixo</p>
+    </div>
+    
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-header">
+                <h3>Vamos trabalhar juntos!</h3>
+                <p>Estou aberto a oportunidades, colaborações ou apenas para bater um papo sobre tecnologia.</p>
+            </div>
+            
+            <div class="contact-cards">
+                <!-- Email -->
+                <div class="contact-card">
+                    <div class="contact-card-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-card-content">
+                        <h4>Email</h4>
+                        <p>Me mande um email com sua proposta</p>
+                        <a href="mailto:limaemanoe91@gmail.com" class="contact-link">limaemanoe91@gmail.com</a>
+                    </div>
+                </div>
+                
+                <!-- LinkedIn -->
+                <div class="contact-card">
+                    <div class="contact-card-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div class="contact-card-content">
+                        <h4>LinkedIn</h4>
+                        <p>Conecte-se profissionalmente</p>
+                        <a href="https://www.linkedin.com/in/emanoellimaaa/" target="_blank" class="contact-link">linkedin.com/in/emanoellimaaa</a>
+                    </div>
+                </div>
+                
+                <!-- GitHub -->
+                <div class="contact-card">
+                    <div class="contact-card-icon github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-card-content">
+                        <h4>GitHub</h4>
+                        <p>Veja meus códigos e contribuições</p>
+                        <a href="https://github.com/EmanoelLimaaa" target="_blank" class="contact-link">github.com/EmanoelLimaaa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-illustration">
+            <img src="./assets/contato.png" alt="Ilustração de contato">
+            <p class="availability">Disponível para novos projetos e oportunidades</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Emanoel Lima</span> Portfólio
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Emanoel Lima. Todos os direitos reservados.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Volta para o topo -->
+<div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
