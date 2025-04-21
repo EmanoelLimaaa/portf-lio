@@ -1,6 +1,6 @@
 # 👨‍💻 Emanoel Lima — Portfólio
 
-Seja bem-vindo(a) ao meu portfólio!  
+Seja bem-vindo ao meu portfólio!  
 Aqui você encontra um pouco sobre quem eu sou, minhas habilidades e os projetos que venho desenvolvendo com foco em **desenvolvimento backend** e aplicações **web**.
 
 🌐 Acesse o portfólio online: [Clique aqui](https://emanoellimaaa.github.io/portf-lio/)
