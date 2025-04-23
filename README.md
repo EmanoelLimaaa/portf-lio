@@ -16,7 +16,7 @@ Sou um desenvolvedor backend apaixonado por tecnologia, soluções funcionais e 
 - 🌐 **HTML, CSS e um pouco de JS**
 - 🐧 Linux
 
-Busco criar aplicações sólidas, com boa estrutura, foco na performance e, claro, que melhorem a vida de quem usa.
+Busco criar aplicações sólidas, com boa estrutura e foco na performance.
 
 ---
 
