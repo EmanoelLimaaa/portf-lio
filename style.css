@@ -289,7 +289,7 @@ nav ul li a:hover::after {
     margin-bottom: 15px;
 }
 
-/* Habilidades - Versão Aprimorada */
+/* Seção de Habilidades */
 .skills {
     margin-top: 40px;
 }
@@ -337,12 +337,12 @@ nav ul li a:hover::after {
     transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Animação apenas com CSS - Solução mais confiável */
+/* Animação com CSS */
 .about-content.in-view .progress {
     width: var(--target-width);
 }
 
-/* Efeito de brilho opcional */
+/* Efeito de brilho */
 .progress::after {
     content: '';
     position: absolute;
@@ -408,7 +408,7 @@ nav ul li a:hover::after {
     color: var(--dark-color);
 }
 
-/* Portfolio Section */
+/* Seção Portfolio */
 .portfolio-filter {
     display: flex;
     justify-content: center;
@@ -510,7 +510,7 @@ nav ul li a:hover::after {
     transform: translateY(0);
 }
 
-/* Testimonials Section */
+/* Seção de depoi */
 .testimonials {
     background-color: var(--primary-color);
     color: var(--text-light);
@@ -616,7 +616,7 @@ nav ul li a:hover::after {
     background-color: var(--text-light);
 }
 
-/* Contact Section */
+/* Seção de contato */
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -762,7 +762,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Back to Top Button */
+/* Botão pra voltar ao topo */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -793,7 +793,7 @@ footer {
     transform: translateY(-5px);
 }
 
-/* Responsive Styles */
+/* Estilo responsivo */
 @media (max-width: 992px) {
     .hero-content {
         flex-direction: column-reverse;
@@ -889,7 +889,7 @@ footer {
     }
 }
 
-/* Portfolio Section - Updated */
+/* Seção do portfolio */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -950,7 +950,7 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Contact Section - Updated */
+/* Seção de contato */
 .contact-section {
     background-color: #f9f9f9;
 }
@@ -1057,7 +1057,7 @@ footer {
     text-align: center;
 }
 
-/* Responsive adjustments */
+/* Ajustes responsivos */
 @media (max-width: 992px) {
     .contact-container {
         flex-direction: column;
@@ -1077,7 +1077,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-/* Ajustes para telas muito pequenas (menos de 400px) */
+/* Ajustes para telas muito pequenas pra telas menores de 400px */
 @media (max-width: 400px) {
     /* Ajuste do cabeçalho */
     .header-container {
@@ -1127,7 +1127,7 @@ footer {
         justify-content: center;
     }
     
-    /* Sobre mim */
+    /* Seção sobre mim */
     .about-content {
         flex-direction: column;
     }
@@ -1178,7 +1178,7 @@ footer {
         margin-bottom: 15px;
     }
     
-    /* Menu - sempre visível em telas pequenas */
+    /* Menu - visível direto em telas pequenas */
     .menu-toggle {
         display: none;
     }
@@ -1202,9 +1202,9 @@ footer {
     }
 }
 
-/* Ajustes para telas entre 400px e 576px */
+/* Um poucod de ajustes para telas menores 400px e 576px */
 @media (min-width: 401px) and (max-width: 576px) {
-    /* [Mantém os mesmos ajustes do anterior, com pequenas variações...] */
+
     .hero-text h1 {
         font-size: 2rem;
     }
