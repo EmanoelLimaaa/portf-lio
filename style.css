@@ -27,7 +27,7 @@ a {
     color: var(--secondary-color);
 }
 
-.container {
+.page-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -237,7 +237,7 @@ nav ul li a:hover::after {
 }
 
 /* About Section */
-.section {
+.page-section {
     padding: 100px 0;
 }
 
@@ -373,8 +373,7 @@ nav ul li a:hover::after {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Services Section */
-.services {
+.page-section.services {
     background-color: #f9f9f9;
 }
 
